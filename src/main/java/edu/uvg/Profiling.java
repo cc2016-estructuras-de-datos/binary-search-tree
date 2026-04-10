@@ -35,7 +35,7 @@ public class Profiling {
         long totalInsert = endInsert - startInsert;
         System.out.println("Tiempo total de inserción: " + totalInsert / 1_000_000 + " ms");
         System.out.println("Tiempo promedio por insert: " + totalInsert / n + " ns");
-        
+
         System.out.println("\nProfiling de search");
         System.out.println("Buscando " + n + " elementos");
 
